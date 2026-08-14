@@ -13,10 +13,11 @@
 
   <!-- Badges -->
   <p align="center">
+    <a href="https://project-beatrice-v2.github.io/website/"><img src="https://img.shields.io/badge/Website-Visit_Official_Site-7C3AED?style=for-the-badge&logo=vercel&logoColor=white" alt="Official Website" /></a>
     <a href="https://github.com/Project-Beatrice-V2"><img src="https://img.shields.io/badge/Architecture-Beatrice_V2_Neural_Engine-7C3AED?style=for-the-badge&logo=cpu&logoColor=white" alt="Beatrice V2 Architecture" /></a>
     <a href="https://github.com/Project-Beatrice-V2"><img src="https://img.shields.io/badge/Platforms-macOS_%7C_Windows_%7C_Cloud-007ACC?style=for-the-badge&logo=apple&logoColor=white" alt="Platforms" /></a>
     <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-10B981?style=for-the-badge&logo=open-source-initiative&logoColor=white" alt="MIT License" /></a>
-    <a href="https://github.com/Project-Beatrice-V2"><img src="https://img.shields.io/badge/Latency-%3C_50ms_Real--time-EF4444?style=for-the-badge&logo=lightning&logoColor=white" alt="Low Latency" /></a>
+    <a href="https://github.com/Project-Beatrice-V2/Beatrice-voicechanger-macos"><img src="https://img.shields.io/badge/Latency-%3C_50ms_Real--time-EF4444?style=for-the-badge&logo=lightning&logoColor=white" alt="Low Latency" /></a>
   </p>
 
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Animated Divider" />
@@ -48,6 +49,24 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>
+        <a href="https://github.com/Project-Beatrice-V2/website">
+          <strong>🌿 website</strong>
+        </a>
+      </td>
+      <td><img src="https://img.shields.io/badge/Web-Live_Production-7C3AED?style=flat-square&logo=vercel&logoColor=white" alt="Web" /></td>
+      <td>Official modern web portal, interactive audio showcase, documentation hub, and multi-lingual portal for Project Beatrice V2.</td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/Project-Beatrice-V2/beatrice-voice-models">
+          <strong>🎭 beatrice-voice-models</strong>
+        </a>
+      </td>
+      <td><img src="https://img.shields.io/badge/Cross--Platform-Model_Hub-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Model Hub" /></td>
+      <td>Official repository of pre-trained Beatrice neural voice weights and models (including Donald Trump 5,000-step checkpoint).</td>
+    </tr>
     <tr>
       <td>
         <a href="https://github.com/Project-Beatrice-V2/Beatrice-voicechanger-macos">
@@ -142,7 +161,7 @@
 <summary><strong>Step 3: Real-Time Live Inference</strong></summary>
 <br />
 
-1. Export your trained voice model.
+1. Download pre-trained weights from **[beatrice-voice-models](https://github.com/Project-Beatrice-V2/beatrice-voice-models)** or export your custom model.
 2. Open **[Beatrice-voicechanger-macos](https://github.com/Project-Beatrice-V2/Beatrice-voicechanger-macos)** or **[Beatrice-voicechanger-windows](https://github.com/Project-Beatrice-V2/Beatrice-voicechanger-windows)**.
 3. Route your physical microphone into the voice changer and output to a virtual audio channel (e.g. VB-Cable / BlackHole).
 4. Use transformed voices live in Discord, OBS, games, or live streaming apps!
