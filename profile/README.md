@@ -13,7 +13,7 @@
 
   <!-- Badges -->
   <p align="center">
-    <a href="https://project-beatrice-v2.github.io/website/"><img src="https://img.shields.io/badge/Website-Visit_Official_Site-7C3AED?style=for-the-badge&logo=vercel&logoColor=white" alt="Official Website" /></a>
+    <a href="https://project-beatrice-v2.github.io/Beatrice-website/"><img src="https://img.shields.io/badge/Website-Visit_Official_Site-7C3AED?style=for-the-badge&logo=vercel&logoColor=white" alt="Official Website" /></a>
     <a href="https://github.com/Project-Beatrice-V2"><img src="https://img.shields.io/badge/Architecture-Beatrice_V2_Neural_Engine-7C3AED?style=for-the-badge&logo=cpu&logoColor=white" alt="Beatrice V2 Architecture" /></a>
     <a href="https://github.com/Project-Beatrice-V2"><img src="https://img.shields.io/badge/Platforms-macOS_%7C_Windows_%7C_Cloud-007ACC?style=for-the-badge&logo=apple&logoColor=white" alt="Platforms" /></a>
     <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-10B981?style=for-the-badge&logo=open-source-initiative&logoColor=white" alt="MIT License" /></a>
@@ -51,8 +51,8 @@
   <tbody>
     <tr>
       <td>
-        <a href="https://github.com/Project-Beatrice-V2/website">
-          <strong>🌿 website</strong>
+        <a href="https://github.com/Project-Beatrice-V2/Beatrice-website">
+          <strong>🌿 Beatrice-website</strong>
         </a>
       </td>
       <td><img src="https://img.shields.io/badge/Web-Live_Production-7C3AED?style=flat-square&logo=vercel&logoColor=white" alt="Web" /></td>
@@ -60,8 +60,8 @@
     </tr>
     <tr>
       <td>
-        <a href="https://github.com/Project-Beatrice-V2/beatrice-voice-models">
-          <strong>🎭 beatrice-voice-models</strong>
+        <a href="https://github.com/Project-Beatrice-V2/Beatrice-voice-models">
+          <strong>🎭 Beatrice-voice-models</strong>
         </a>
       </td>
       <td><img src="https://img.shields.io/badge/Cross--Platform-Model_Hub-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Model Hub" /></td>
@@ -161,7 +161,7 @@
 <summary><strong>Step 3: Real-Time Live Inference</strong></summary>
 <br />
 
-1. Download pre-trained weights from **[beatrice-voice-models](https://github.com/Project-Beatrice-V2/beatrice-voice-models)** or export your custom model.
+1. Download pre-trained weights from **[Beatrice-voice-models](https://github.com/Project-Beatrice-V2/Beatrice-voice-models)** or export your custom model.
 2. Open **[Beatrice-voicechanger-macos](https://github.com/Project-Beatrice-V2/Beatrice-voicechanger-macos)** or **[Beatrice-voicechanger-windows](https://github.com/Project-Beatrice-V2/Beatrice-voicechanger-windows)**.
 3. Route your physical microphone into the voice changer and output to a virtual audio channel (e.g. VB-Cable / BlackHole).
 4. Use transformed voices live in Discord, OBS, games, or live streaming apps!
