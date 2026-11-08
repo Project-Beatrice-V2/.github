@@ -43,10 +43,10 @@ For a server with a private CA, add its certificate according to the scanner act
 
 ## Enable Mergify after branch rules are in place
 
-The checked-in Mergify rule ships disabled. It only targets a ready, up-to-date PR that changes exactly `README.md`, has the maintainer-applied `automerge:docs` label and an approval, has no outstanding change requests, and passes the repository's CI, CodeQL, Review policy and applicable Dependency review checks. Dependabot PRs are excluded and dependency manifests cannot match the file constraint.
+The checked-in Mergify rule ships disabled. It only targets a ready, up-to-date PR that changes exactly `README.md`, has the maintainer-applied `automerge:docs` label and an approval, has no outstanding change requests, and passes the repository's CI, CodeQL scan and results, Review policy and applicable Dependency review checks. Any failing check blocks the rule. Dependabot PRs are excluded and dependency manifests cannot match the file constraint.
 
 1. Install the Mergify GitHub App on selected repositories only. Keep the app out of all protection bypass lists.
-2. On `main`, require pull requests, at least one approving review, dismissal of stale approvals, and the successful checks listed in that repository's `.mergify.yml`. Enable squash merging. Confirm your existing protection settings and any additional required security checks.
+2. On `main`, require pull requests, at least one approving review, dismissal of stale approvals, and the successful checks listed in that repository's `.mergify.yml`. Enable squash merging. Use GitHub's **Require code scanning results** rule for CodeQL and choose the alert severity that must block merges. Confirm existing protections and any additional required checks.
 3. Use Mergify's configuration validator, then enable the rule by removing its `disabled` block in a reviewed PR. Create the `automerge:docs` label and apply it only after inspecting the change.
 
 Mergify inherits applicable GitHub branch protection and ruleset requirements. [Mergify merge action](https://docs.mergify.com/workflow/actions/merge/)
