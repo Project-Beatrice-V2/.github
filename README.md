@@ -1,3 +1,5 @@
+[![CI](https://github.com/Project-Beatrice-V2/.github/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Project-Beatrice-V2/.github/actions/workflows/ci.yml) [![CodeQL](https://github.com/Project-Beatrice-V2/.github/actions/workflows/codeql.yml/badge.svg?branch=main)](https://github.com/Project-Beatrice-V2/.github/actions/workflows/codeql.yml) [![PR policy](https://github.com/Project-Beatrice-V2/.github/actions/workflows/pr-policy.yml/badge.svg?event=pull_request)](https://github.com/Project-Beatrice-V2/.github/actions/workflows/pr-policy.yml)
+
 <div align="center">
 
   <!-- Animated Typing SVG Header -->
@@ -161,3 +163,7 @@
   <sub>Built with ❤️ by the Project Beatrice V2 Team • Released under the MIT License</sub>
 
 </div>
+
+## Repository automation
+
+See the [organization automation guide](https://github.com/Project-Beatrice-V2/.github/blob/main/docs/automation.md) for checks, contribution policies, and integration setup.
