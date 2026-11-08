@@ -1,6 +1,6 @@
 # Repository automation
 
-Every repository runs CI on pull requests targeting `main` and on pushes to `main`. Pull requests also run a review policy check. The workflows run with read-only tokens except for CodeQL results uploads and the existing deployment or release jobs that need specific write permissions.
+Every repository runs CI on pull requests and on pushes to `main`. Pull requests also run a review policy check. The workflows run with read-only tokens except for CodeQL results uploads and the existing deployment or release jobs that need specific write permissions.
 
 ## Checks by repository
 
