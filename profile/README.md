@@ -1,5 +1,11 @@
 <div align="center">
 
+<a href="https://project-beatrice.vercel.app">
+  <img src="https://raw.githubusercontent.com/Project-Beatrice-V2/Beatrice-website/main/docs/media/home.jpg" alt="Beatrice — Become any voice. In real time." width="100%" />
+</a>
+
+<br/><br/>
+
 <img src="https://raw.githubusercontent.com/satiricalguru/Beatrice-voicechanger-mac/main/docs/media/app-icon.png" alt="Beatrice" width="112" />
 
 # Project Beatrice
