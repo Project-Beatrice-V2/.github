@@ -24,7 +24,7 @@
   <br />
 
   <a href="https://project-beatrice.vercel.app">
-    <img src="https://raw.githubusercontent.com/Project-Beatrice-V2/Beatrice-website/main/docs/media/home.jpg" alt="Beatrice — Become any voice. In real time." width="100%" />
+    <img src="https://raw.githubusercontent.com/Project-Beatrice-V2/Beatrice-website/main/docs/media/hero.gif" alt="The Beatrice home page: a breathing particle orb behind the headline 'Become any voice. In real time.'" width="100%" />
   </a>
 
   <br />
