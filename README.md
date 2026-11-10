@@ -1,12 +1,5 @@
 <div align="center">
 
-  <a href="https://project-beatrice.vercel.app">
-    <img src="https://raw.githubusercontent.com/Project-Beatrice-V2/Beatrice-website/main/docs/media/home.jpg" alt="Beatrice — Become any voice. In real time." width="100%" />
-  </a>
-
-  <br />
-  <br />
-
   <!-- Animated Typing SVG Header -->
   <a href="https://github.com/Project-Beatrice-V2">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=F6AD55&center=true&vcenter=true&width=750&lines=%F0%9F%8E%99%EF%B8%8F+Project+Beatrice+V2;Next-Gen+Neural+Voice+Conversion;Sub-50ms+Ultra-Low+Latency+Inference;Local+Training+(macOS+%7C+Windows)+%2B+Colab;Dataset+Curation+Web+UI+Tools" alt="Project Beatrice V2 Typing Header" />
@@ -25,6 +18,15 @@
     <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-10B981?style=for-the-badge&logo=open-source-initiative&logoColor=white" alt="MIT License" /></a>
     <a href="https://github.com/Project-Beatrice-V2"><img src="https://img.shields.io/badge/Latency-%3C_50ms_Real--time-EF4444?style=for-the-badge&logo=lightning&logoColor=white" alt="Low Latency" /></a>
   </p>
+
+  <br />
+
+  <a href="https://project-beatrice.vercel.app">
+    <img src="https://raw.githubusercontent.com/Project-Beatrice-V2/Beatrice-website/main/docs/media/home.jpg" alt="Beatrice — Become any voice. In real time." width="100%" />
+  </a>
+
+  <br />
+  <br />
 
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Animated Divider" />
 
